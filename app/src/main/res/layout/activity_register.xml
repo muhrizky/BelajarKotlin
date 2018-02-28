@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/vertical_margin"
+    android:paddingLeft="@dimen/horisontal_margin1"
+    android:paddingTop="@dimen/vertical_margin"
+    android:paddingRight="@dimen/horisontal_margin1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.student.muhammadrizqi.ankocommons.RegisterActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed_tex_full_name_register"
+        android:hint="@string/full_name"
+        android:inputType="textPersonName"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed_username_register"
+        android:hint="@string/username"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:id="@+id/ed_password_register"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:id="@+id/btn_register_register"/>
+</LinearLayout>
